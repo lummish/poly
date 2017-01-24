@@ -1,4 +1,4 @@
-t ohm = require('ohm-js');
+const ohm = require('ohm-js');
 
 const grammar = ohm.grammar(`Polynomial {
   Poly
